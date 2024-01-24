@@ -5,6 +5,7 @@ import jakarta.persistence.Id;
 import lombok.Getter;
 @Entity
 @Getter
+@Setter
 public class ReturnTax {
     @Id
     private String userId;

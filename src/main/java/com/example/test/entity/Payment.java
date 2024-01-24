@@ -5,6 +5,7 @@ import jakarta.persistence.Id;
 import lombok.Getter;
 @Entity
 @Getter
+@Setter
 public class Payment {
     @Id
     private String userId;    //회원아이디
