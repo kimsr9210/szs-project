@@ -37,7 +37,7 @@ public class JoinRequest {
                 .userId(this.userId)
                 .password(encodedPassword)
                 .name(this.name)
-                .regNo(this.regNo)
+                .regNo(encodedPassword)
                 .build();
     }
 }
